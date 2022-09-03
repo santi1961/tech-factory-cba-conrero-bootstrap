@@ -1,0 +1,94 @@
+.minCompra {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.categorias {
+    text-align: center;
+}
+
+.marcas {
+    text-align: center;
+}
+
+.logo img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.banner {
+    grid-area: banner;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+}
+
+.navCenter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    grid-area: mapa;
+    overflow:hidden;
+    position:relative;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: solid;
+}
+
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.input {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.imgFix {
+    display: flex;
+    justify-content: center;
+}
