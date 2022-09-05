@@ -1,13 +1,13 @@
 body {
-    background-color: #E1EFE6;
+    background-color: #FFF4E4;
 }
 
 .logoNav {
-    background-color: #EFCB68;
+    background-color: #0091AD;
 }
 
 .footerFix {
-    background-color: #EFCB68;
+    background-color: #0091AD;
 }
 
 .minCompra {
@@ -17,6 +17,7 @@ body {
     font-size:medium ;
     display: flex;
     justify-content: center;
+    padding-top: 3px;
 }
 
 .categorias {
@@ -115,4 +116,34 @@ form {
 
 .banner {
     padding-top: 20px;
+}
+
+.ofertasBg {
+    background-color: #0091AD;
+    padding-bottom: 10px;
+}
+
+.ofertasFix {
+    padding: 0px;
+}
+
+.footerFix {
+    box-shadow:inset;
+    box-shadow: 5px -10px 18px #888888;
+    padding-top: 20px;
+}
+
+.mapFix {
+    display: flex;
+    justify-content: center;
+}
+
+.datos1Fix {
+    display: flex;
+    justify-content: center;
+}
+
+.datos2Fix {
+    display: flex;
+    justify-content: center;
 }
