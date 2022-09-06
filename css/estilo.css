@@ -1,14 +1,18 @@
 body {
     background-color: #FFF4E4;
+    font-family: 'Bebas Neue', cursive; margin: 0px;
 }
 
 .logoNav {
-    background-color: #0091AD;
+    background-color: #DCD6F7;
 }
 
 .footerFix {
-    background-color: #0091AD;
+    background-color: #DCD6F7;
 }
+
+.colorHr {border: 0; height: 0; border-top: 4px double black; text-align:center; margin: 0px;}
+.colorHr:after {position: relative; top: -22px; content:"\25cf\25cf\25cf"; font-size: 34px;line-height: 34px; color: black;}
 
 .minCompra {
     background-color: black;
@@ -40,6 +44,7 @@ body {
     margin: 20px;
     display: flex;
     justify-content: center;
+    padding-bottom: 60px;
 }
 
 @media (min-width: 992px) {
@@ -115,11 +120,16 @@ form {
 }
 
 .banner {
-    padding-top: 20px;
+    padding-top: 40px;
+}
+
+.banner img {
+    height: 400px;
+    width: 900px;
 }
 
 .ofertasBg {
-    background-color: #0091AD;
+    background-color: #DCD6F7;
     padding-bottom: 10px;
 }
 
