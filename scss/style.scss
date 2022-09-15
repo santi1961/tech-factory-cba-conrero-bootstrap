@@ -1,9 +1,9 @@
-@import "colores";
 @import "body";
-@import "header";
-@import "footer";
 @import "hr";
 @import "minCompra";
+@import "maps";
+@import "extend";
+@import "mixing";
 
 .categorias {
     text-align: center;
@@ -19,15 +19,6 @@
     height: 100px;
 }
 
-.banner {
-    grid-area: banner;
-    text-align: center;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 60px;
-}
-
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-collapse {
     display: flex!important;
@@ -39,12 +30,6 @@
 .navCenter {
     display: flex;
     justify-content: flex-end;
-}
-
-.carousel {
-    position: relative;
-    width: 500px;
-    height: 500px;
 }
 
 .row {
@@ -100,11 +85,7 @@ form {
     box-shadow: 5px 10px 18px #888888
 }
 
-.banner {
-    padding-top: 40px;
-}
-
-.banner img {
+.centroBanner img {
     height: 400px;
     width: 900px;
 }

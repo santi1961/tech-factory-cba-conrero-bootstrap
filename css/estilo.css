@@ -1,13 +1,6 @@
 body {
-  background-color: #FFF4E4;
   font-family: 'Bebas Neue', cursive;
   margin: 0px; }
-
-.logoNav {
-  background-color: #DCD6F7; }
-
-.footerFix {
-  background-color: #DCD6F7; }
 
 .colorHr {
   border: 0;
@@ -32,6 +25,31 @@ body {
   justify-content: center;
   padding-top: 3px; }
 
+.footerFix {
+  background-color: #DCD6F7; }
+
+.body {
+  background-color: #FFF4E4; }
+
+.logoNav {
+  background-color: #DCD6F7; }
+
+.centro, .centroBanner {
+  text-align: center; }
+
+.centroBanner {
+  grid-area: banner;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 40px; }
+
+.carousel {
+  position: relative;
+  width: 500px;
+  height: 500px; }
+
 .categorias {
   text-align: center; }
 
@@ -43,14 +61,6 @@ body {
   width: 100px;
   height: 100px; }
 
-.banner {
-  grid-area: banner;
-  text-align: center;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px; }
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -60,11 +70,6 @@ body {
 .navCenter {
   display: flex;
   justify-content: flex-end; }
-
-.carousel {
-  position: relative;
-  width: 500px;
-  height: 500px; }
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -112,10 +117,7 @@ form {
   box-shadow: inset;
   box-shadow: 5px 10px 18px #888888; }
 
-.banner {
-  padding-top: 40px; }
-
-.banner img {
+.centroBanner img {
   height: 400px;
   width: 900px; }
 

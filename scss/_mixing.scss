@@ -1,0 +1,9 @@
+@mixin carousel($position, $width, $height) {
+    position: $position;
+    width: $width;
+    height: $height;
+}
+
+.carousel {
+    @include carousel(relative, 500px, 500px);
+}
