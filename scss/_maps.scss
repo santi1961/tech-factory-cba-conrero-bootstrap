@@ -3,14 +3,25 @@ $colores: (
     headerFooterBgColor: #DCD6F7
 );
 
-.footerFix {
-    background-color: map-get($colores, headerFooterBgColor);
-}
+.footerFix {background-color: map-get($colores, headerFooterBgColor);}
+.body {background-color: map-get($map: $colores, $key: BgColor);}
+.logoNav {background-color: map-get($map: $colores, $key: headerFooterBgColor);}
 
-.body {
-    background-color: map-get($map: $colores, $key: BgColor);
-}
-
-.logoNav {
-    background-color: map-get($map: $colores, $key: headerFooterBgColor);
+.mapa {
+    grid-area: mapa;
+    overflow:hidden;
+    position:relative;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: solid;
+    iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
 }

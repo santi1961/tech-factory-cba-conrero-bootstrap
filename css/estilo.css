@@ -34,6 +34,23 @@ body {
 .logoNav {
   background-color: #DCD6F7; }
 
+.mapa {
+  grid-area: mapa;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border: solid; }
+  .mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
 .centro, .centroBanner {
   text-align: center; }
 
@@ -50,13 +67,11 @@ body {
   width: 500px;
   height: 500px; }
 
-.categorias {
-  text-align: center; }
+.dispCenter {
+  display: flex;
+  justify-content: center; }
 
-.marcas {
-  text-align: center; }
-
-.logo img {
+.logo {
   display: flex;
   width: 100px;
   height: 100px; }
@@ -82,36 +97,11 @@ body {
   display: flex;
   justify-content: center; }
 
-.mapa {
-  grid-area: mapa;
-  overflow: hidden;
-  position: relative;
-  width: 200px;
-  height: 150px;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  border: solid; }
-
-.mapa iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute; }
-
-.input {
-  text-align: center; }
-
 form {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
   margin-bottom: 25px; }
-
-.imgFix {
-  display: flex;
-  justify-content: center; }
 
 .logoNav {
   box-shadow: inset;
@@ -132,15 +122,3 @@ form {
   box-shadow: inset;
   box-shadow: 5px -10px 18px #888888;
   padding-top: 20px; }
-
-.mapFix {
-  display: flex;
-  justify-content: center; }
-
-.datos1Fix {
-  display: flex;
-  justify-content: center; }
-
-.datos2Fix {
-  display: flex;
-  justify-content: center; }

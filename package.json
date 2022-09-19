@@ -1,7 +1,7 @@
 {
   "name": "tech-factory-cba-conrero-bootstrap",
   "version": "1.0.0",
-  "description": "Tech Factory Conrero Bootstrap",
+  "description": "Tech Factory es una empresa dedicada a la venta mayorista y minorista de todo tipo de articulos, ya sean de electronica, bazar o herramientas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
